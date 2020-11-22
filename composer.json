@@ -1,0 +1,26 @@
+{
+	"name": "Nono95230/jquery.easing",
+	"description": "Allows to clone the gdsmith/jquery.easing repository",
+	"require": {
+		"php": "^7.2",
+		"another-vendor/package": "1.*"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://packages.drupal.org/8"
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "Nono95230/jquery.easing",
+				"type": "drupal-library",
+				"version": "dev-master",
+				"dist": {
+					"url": "https://github.com/Nono95230/jquery.easing/archive/master.zip",
+					"type": "zip"
+				}
+			}
+		}
+	]
+}
